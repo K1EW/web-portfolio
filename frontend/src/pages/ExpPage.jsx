@@ -8,7 +8,7 @@ function ExpPage() {
         <div className='flex flex-col justify-between items-center gap-[2rem]'>
           <div className='flex flex-col md:flex-row gap-[1rem]'>
             <img src="/images/fest-teaching.jpg" alt="fest-teaching" className='w-[25rem] h-[15rem] object-cover p-2 rounded-2xl shadow-xl hover:shadow-2xl ease-in-out duration-100 select-none' />
-            <img src="/images/fest-guiding.JPG" alt="fest-guiding" className='w-[25rem] h-[15rem] object-cover p-2 rounded-2xl shadow-xl hover:shadow-2xl ease-in-out duration-100 select-none' />
+            <img src="/images/fest-guiding.jpg" alt="fest-guiding" className='w-[25rem] h-[15rem] object-cover p-2 rounded-2xl shadow-xl hover:shadow-2xl ease-in-out duration-100 select-none' />
           </div>
           <div className='flex flex-col gap-[0.75rem]'>
             <div className='font-semibold text-[1.25rem]'>✍️ Teaching Basic Computer Programming using C, C++, and Python to college students</div>
