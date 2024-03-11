@@ -11,7 +11,16 @@ function MainPage() {
         <div className='text-[2rem] font-bold mb-5'>Featured Projects 🗂️</div>
         <div className='grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1rem]'>
           {
-            projects.map((project)=><ProjectCard title={project.title} desc={project.desc} url={project.url} img={project.img} />)
+            projects.map((project) =>
+              project.featured === true && (
+                <ProjectCard
+                title={project.title}
+                desc={project.desc}
+                url={project.url}
+                img={project.img}
+                />
+              )
+            )
           }
         </div>
       </div>
