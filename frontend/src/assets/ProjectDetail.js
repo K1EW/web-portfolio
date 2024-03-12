@@ -14,6 +14,13 @@ export const projects = [
         featured: true,
     },
     {
+        title: "Knapsack SA",
+        desc: "Solving Knapsack problem using metaheuristic optimization method - Simulated Annealing",
+        url: "https://github.com/K1EW/Knapsack-Simulated-Annealing",
+        img: "/images/github-banner.jpg",
+        featured: true,
+    },
+    {
         title: "CEDT - Comprog Solutions",
         desc: "Solutions for each problem in (2110104) CEDT - Computer Programming (2023)",
         url: "https://github.com/K1EW/CEDT-Comprog",
@@ -25,6 +32,6 @@ export const projects = [
         desc: "Solutions for each problem in (2110328) CEDT - Data Structures and Algorithms (2023)",
         url: "https://github.com/K1EW/CEDT-DataAlgo",
         img: "/images/github-banner.jpg",
-        featured: true,
+        featured: false,
     },
 ];
